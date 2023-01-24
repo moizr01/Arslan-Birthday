@@ -1,0 +1,83 @@
+body{
+    color: white;
+    background: rgb(49, 126, 226);
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    margin: 30px auto;
+}
+#pic{
+    width: 150px;
+    border: 3px solid rgb(193, 147, 86) ;
+    border-radius: 50%;
+}
+h1,h2, h3, h4, p {
+    text-shadow: 0px 1px 2px black;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#bday-age{
+    background: rgb(193, 147, 86);
+    padding: 2px 8px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+#bday-date{
+    margin: 0;
+    background: rgb(193, 147, 86);
+    padding: 2px 8px;
+    border-radius: 5px;
+}
+.gift{
+    margin-top: 50px;
+}
+.gift-title{
+    margin-bottom: 10px;
+}
+.gift-hint{
+    margin-top: 0px;
+}
+.giftcover{
+    margin: 0px auto;
+    width: 400px;
+    height: 400px;
+    background-image: url("images/giftcover.jpg");
+    background-size: cover;
+    border: 4px solid white;
+    border-radius: 10%;
+    margin-bottom: 70px;
+}
+.giftcover:hover{
+    background-image: url("images/happy.webp");
+    background-size: cover;
+}
+.giftcover1{
+    margin: 0px auto;
+    width: 400px;
+    height: 400px;
+    background-image: url("images/giftcover.jpg");
+    background-size: cover;
+    border: 4px solid white;
+    border-radius: 10%;
+    margin-bottom: 70px;
+}
+.giftcover1:hover{
+    background-image: url("images/cool.webp");
+    background-size: 400px 400px;
+}
+.giftcover2{
+    margin: 0px auto;
+    width: 400px;
+    height: 400px;
+    background-image: url("images/giftcover.jpg");
+    background-size: cover;
+    border: 4px solid white;
+    border-radius: 10%;
+    margin-bottom: 70px;
+}
+.giftcover2:hover{
+    background-image: url("images/shock.webp");
+    background-size: 400px 400px;
+}
